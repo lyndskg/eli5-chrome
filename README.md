@@ -13,12 +13,15 @@
         <li><a href="#obj">Objectives</a></li>
       </ul>
     </li>
+    <li><a href="#uiux">UI/UX</a></li>
     <li>
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
-        <li><a href="#rec">Recommended</a></li>
-        <li><a href="#built">Built With</a></li>
-        <li><a href="#devenv">Development Environment</a></li>
+        <li><a href="#front">Front-end (User Interface)</a></li>
+        <li><a href="#back">Back-end</a></li>
+        <li><a href="#ml">Machine Learning (ML) Libraries</a></li>
+        <li><a href="#ide">IDEs (Integrated Development Environments)</a></li>
+        <li><a href="#ml">Development Environment</a></li>
       </ul>
     </li>
     <li>
@@ -31,16 +34,17 @@
         <li><a href="#todo">To-Do List</a></li>
       </ul>
     </li>
+    <li><a href="#start">Getting Started</a></li>
+    <li><a href="#flow">Basic Workflow</a></li>
     <li>
-      <a href="#start">Getting Started</a></li>
+      <a href="#io">Basic I/O Details</a>
       <ul>
-        <li><a href="#xcode">SwiftUI in XCode</a></li>
-        <li><a href="#cpp">C++ in CLion</a></li>
-        <li><a href="#swift">Swift in CLion</a></li>
+        <li><a href="#i">Input</a></li>
+        <li><a href="#o">Output</a></li>
+        <li><a href="#sys">System Requirements</a></li>
+        <li><a href="#user">User Requirements</a></li>
       </ul>
     </li>
-    <li><a href="#flow">Basic Workflow</a></li>
-    <li><a href="#io">Basic I/O Details</a></li>
     <li>
       <a href="#use">Usage</a>
       <ul>
@@ -77,19 +81,30 @@ Drawing inspiration from the immensely popular subreddit *r/ELI5*, this extensio
 > The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.
 
 
-### <ins>*For terms not yet queried on r/ELI5...*</ins>
+#### <ins>*For terms not yet queried on r/ELI5...*</ins>
 The extension leverages state-of-the-art Machine Learning (ML) techniques &mdash; auto-generating pseudo-"r/ELI5" explanations.
   - Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
     
-### <ins>*If a term/phrase has, in fact, already been queried on r/ELI5...*</ins>
+#### <ins>*If a term/phrase has, in fact, already been queried on r/ELI5...*</ins>
 Users can view relevant snippets derived from top-rated comments curated through Reddit's various sorting mechanisms.
   - __<ins>Note</ins>:__ By default, `eli5-chrome` will provide both its ML-generated definition as well information it aggregates from r/ELI5. By default, `eli5-chrome` will also utilize Reddit's "top" sorting mechanism for comments.
     - This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 These configurations can be changed in `eli5-chrome`'s user settings.
 
 
+
+<a name="obj"></a>
+### <ins>Objectives</ins>
+The main objective of `eli5-chrome` is to provide macOS users with a playful solution to amplify their audio volume beyond the limitations imposed by Apple. 
+
+By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims to enhance the audio experience for users who desire louder sound without compromising on quality.
+
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+
+---------------------
+
 <a name="uiux"></a>
-### UI/UX
+## UI/UX
 `eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
 The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
 
@@ -98,13 +113,6 @@ The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive 
 
 
 Moreover, user privacy and data protection are at the forefront, as the extension does not collect or store any personal information, ensuring a secure and trustworthy environment.
-
-
-<a name="obj"></a>
-### <ins>Objectives</ins>
-The main objective of `eli5-chrome` is to provide macOS users with a playful solution to amplify their audio volume beyond the limitations imposed by Apple. 
-
-By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims to enhance the audio experience for users who desire louder sound without compromising on quality.
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
@@ -286,10 +294,12 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="io"></a>
 ## Basic I/O Details
 
+<a name="i"></a>
 ### Input:
 > - Users provide input by hovering the cursor over a word/phrase on any webpage.
 >   - When the user hovers the cursor over a word or phrase on any webpage, the extension detects the highlighted term and initiates a request for the ELI5 explanation.
 >
+<a name="o"></a>
 ### Output:
 > - ELI5 definition appears in a drop-down widget, along with relevant r/ELI5 comments or auto-generated pseudo-r/ELI5 explanations.
 >   - The ELI5 definition appears in a non-intrusive drop-down widget adjacent to the highlighted word/phrase.
@@ -299,6 +309,7 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 
 &nbsp;
 
+<a name="sys"></a>
 ### System Permissions and Requirements:
 The extension requires access to the current webpage to detect and process user input.
 
@@ -312,6 +323,8 @@ The extension requires access to the current webpage to detect and process user 
 > Shit
 > Here
 
+
+<a name="user"></a>
 ### User Permissions and Requirements:
 The extension requires access to the current webpage to detect and process user input.
 
@@ -334,6 +347,7 @@ The extension requires access to the current webpage to detect and process user 
 > Put
 > Shit
 > Here
+
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
@@ -364,12 +378,14 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 > Shit
 > Here
 
+<a name="pre"></a>
 ### Prerequisites:
 
 > Put
 > Shit
 > Here
 
+<a name="inst"></a>
 ### Installation:
 
 1. Download the extension from the Chrome Web Store or the project's GitHub repository.
