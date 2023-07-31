@@ -315,8 +315,8 @@ The extension requires access to the current webpage to detect and process user 
 
 
 > **Internet Access:** The extension requires an internet connection to fetch data from the Reddit API, perform data scraping, and access other online sources for pseudo-r/ELI5 generation.
-> **Chrome Web Browser:** ELI5 Explorer is a Google Chrome extension, and users must have the Chrome browser installed to use it.
-> **Chrome Extension Installation:** Users need permissions to install and enable the extension on their Chrome browsers to utilize the ELI5 Explorer functionality.
+> **Chrome Web Browser:** `eli5-chrome` is a Google Chrome extension, and users must have the Chrome browser installed to use it.
+> **Chrome Extension Installation:** Users need permissions to install and enable the extension on their Chrome browsers to utilize `eli5-chrome`'s functionality.
 > **Local Storage Access:** The extension requires permission to access Chrome's local storage to store user preferences and cache frequently accessed terms for improved performance.
 
 > Put
@@ -332,11 +332,11 @@ The extension requires access to the current webpage to detect and process user 
 > **Hovering over Words/Phrases:**
 > - Users can interact with the extension by simply hovering the cursor over a word or phrase on any webpage to trigger the ELI5 explanation pop-up.
 > **Allowing Extension Installation:**
-> - Users must have permission to install Chrome extensions. This permission allows users to enable the ELI5 Explorer extension on their Chrome browsers.
+> - Users must have permission to install Chrome extensions. This permission allows users to enable the `eli5-chrome` extension on their Chrome browsers.
 > **Providing Internet Access:**
 > - Users should ensure their devices have an active internet connection to access r/ELI5 and other online sources for generating pseudo-r/ELI5 explanations.
 > **No Personal Data Collection:**
-> - ELI5 Explorer does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
+> - `eli5-chrome` does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
 > **Feedback and Reporting:**
 > - Users are encouraged to provide feedback, report bugs, and suggest improvements through the extension's interface or the project's GitHub repository.
 > **Responsible Use:**
@@ -360,19 +360,11 @@ If a term/phrase has been queried on r/ELI5, users can view relevant comments so
 
 The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge. When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition. The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
 
-However, the wonders of ELI5 Explorer do not end there. For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism. This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
+However, the wonders of `eli5-chrome` do not end there. For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism. This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 
-But what about terms that have not been previously queried on r/ELI5? ELI5 Explorer does not leave users empty-handed. Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-r/ELI5 explanations. Through data scraping and intelligent algorithms, ELI5 Explorer composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
+But what about terms that have not been previously queried on r/ELI5? `eli5-chrome` does not leave users empty-handed. Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-r/ELI5 explanations. Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
 
 ### Potential Use Cases and Applications:
-- **<ins>Media Playback</ins>:**
-  - Enhance audio volume when watching movies, videos, or listening to music.
-- **<ins>Video Conferencing</ins>:**
-  - Improve audio clarity during online meetings and conferences.
-- **<ins>Accessibility</ins>:**
-  - Assist users with hearing impairments by increasing the volume as needed.
-- **<ins>Noisy Environments</ins>:**
-  - Allow users to boost volume in loud or noisy surroundings.
 
 > Put
 > Shit
@@ -392,7 +384,7 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 2. Open Google Chrome and go to "chrome://extensions".
 3. Enable "Developer mode" in the top-right corner.
 4. Click "Load unpacked" and select the extension folder on your local machine.
-5. The ELI5 Explorer extension will be added to Chrome.
+5. The `eli5-chrome` extension will be added to Chrome.
 
    
 > Put
@@ -406,17 +398,6 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 <a name="feat"></a>
 ## Key Features 
 
-- **<ins>Volume Boosting</ins>:**
-  - Amplify audio playback volume by up to 2000% beyond Apple's default limits.
-- **<ins>Minimalistic UI</ins>:**
-  - A simple and user-friendly interface with essential controls.
-- **<ins>Menu Bar Widget</ins>:**
-  - Run the application as a convenient menu bar drop-down widget.
-- **<ins>Standalone Application</ins>:**
-  - Offer the option to use `volume_vault` as a standalone application for easy access.
-- **<ins>Customizability</ins>:**
-  - Allow users to fine-tune the volume boost level according to their preferences.
-
 > Put
 > Shit
 > Here
@@ -427,7 +408,7 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 <a name="give"></a>
 ## How and Why to Contribute
 
-Contributions to ELI5 Explorer are encouraged and welcomed! Here's how you can contribute:
+Contributions to `eli5-chrome` are encouraged and welcomed! Here's how you can contribute:
 
 - **Bug Reports:** Report any issues, bugs, or errors you encounter while using the extension.
 - **Feature Requests:** Suggest new features or improvements to enhance the extension's functionality.
@@ -435,7 +416,7 @@ Contributions to ELI5 Explorer are encouraged and welcomed! Here's how you can c
 - **Documentation:** Help improve the README.md or add more detailed documentation to the project.
 
 
-By contributing to ELI5 Explorer, you can make the internet a more accessible and informative place for users of all ages and backgrounds.
+By contributing to `eli5-chrome`, you can make the internet a more accessible and informative place for users of all ages and backgrounds.
 
 
 We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
@@ -454,25 +435,6 @@ Together, we can transform `eli5-chrome` into an indispensable tool for fosterin
 
 ## Potential Enhancements
 
-1. **<ins>Equalizer</ins>:**
-   
-Implement an audio equalizer to provide users with further control over audio frequencies.
-
-
-2. **<ins>Presets</ins>:**
-   
-Include preset configurations for different scenarios (*e.g.*, movies, music, gaming) for quick adjustments.
-
-
-3. **<ins>Audio Effects</ins>:**
-
-Integrate audio effects like spatial audio or surround sound to enrich the audio experience.
-
-
-4. **<ins>Dark Mode</ins>:**
-
-Add support for macOS dark mode to enhance visual appeal and consistency with macOS aesthetics.
-
 > Put
 > Shit
 > Here
@@ -483,7 +445,7 @@ Add support for macOS dark mode to enhance visual appeal and consistency with ma
 <a name="conc"></a> 
 ## Conclusion
 
-ELI5 Explorer aims to bridge the gap between complex terminology and easy comprehension for all users. By utilizing the power of community-driven explanations from r/ELI5 and cutting-edge ML techniques, this extension can become an invaluable tool for individuals seeking simple yet accurate insights into challenging concepts. With the support and collaboration of contributors, we can make ELI5 Explorer an indispensable resource for internet users worldwide. Let's simplify knowledge and promote understanding together!
+`eli5-chrome` aims to bridge the gap between complex terminology and easy comprehension for all users. By utilizing the power of community-driven explanations from r/ELI5 and cutting-edge ML techniques, this extension can become an invaluable tool for individuals seeking simple yet accurate insights into challenging concepts. With the support and collaboration of contributors, we can make `eli5-chrome` an indispensable resource for internet users worldwide. Let's simplify knowledge and promote understanding together!
 
 
 Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
