@@ -165,13 +165,6 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="impl"></a>
 ## Implementation Details
 
-- [ ] **Reddit API Integration:** Implement a connection to the Reddit API to fetch data from r/ELI5, including comments, for queried terms.
-- [ ] **Machine Learning (ML) Techniques:** Employ natural language processing (NLP) and ML algorithms to generate pseudo-r/ELI5 explanations for terms not found on r/ELI5.
-- [ ] **User Interface:** Create a user-friendly interface that displays the ELI5 definition in a drop-down widget when the user hovers over a word/phrase.
-- [ ] **Storage Management:** Utilize Chrome's storage API to manage user preferences and cache frequently accessed terms for improved performance.
-- [ ] **Data Scraping:** For terms not found on r/ELI5, scrape relevant information from other online sources to create informative pseudo-r/ELI5 explanations.
-- [ ] **Error Handling:** Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
-
 1. **Manifest File:** Create a `manifest.json` file to define the extension's properties, including permissions, content scripts, background scripts, icons, and the extension popup.
 2. **User Interface (UI):**
 - Design the popup widget using HTML and CSS. It should be visually appealing and responsive to different screen sizes.
@@ -203,33 +196,21 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 -Package the extension into a distributable format (*e.g.*, `.crx`) for Chrome Web Store submission.
 - Optionally, deploy the extension to the Chrome Web Store to make it publicly available for users.
 
-
-### Getting Started:
-1. Clone the repository and navigate to the project directory.
-2. Install any required dependencies using `npm` or `yarn`.
-3. Load the unpacked extension in Chrome Developer mode.
-
-
-### Basic Workflow & Roadmap
-1. Set up the basic project structure and necessary files.
-2. Create a basic UI for the extension's pop-up widget.
-3. Implement Reddit API integration to fetch data from r/ELI5.
-4. Develop ML models to generate pseudo-r/ELI5 explanations for terms not on r/ELI5.
-5. Integrate data scraping to supplement pseudo-r/ELI5 explanations.
-6. Add storage management to store user preferences and cache frequently accessed terms.
-7. Implement error handling to deal with API or ML failures gracefully.
-8. Test the extension for different use cases and scenarios.
-9. Optimize and fine-tune ML models for better explanations.
-10. Polish the UI and user experience for seamless interaction.
-11. Perform extensive testing and debugging to ensure stability and reliability.
-
- 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
 ---------------------
 
 <a name="map"></a>
 ## Roadmap
+
+
+- [ ] **Reddit API Integration:** Implement a connection to the Reddit API to fetch data from r/ELI5, including comments, for queried terms.
+- [ ] **Machine Learning (ML) Techniques:** Employ natural language processing (NLP) and ML algorithms to generate pseudo-r/ELI5 explanations for terms not found on r/ELI5.
+- [ ] **User Interface:** Create a user-friendly interface that displays the ELI5 definition in a drop-down widget when the user hovers over a word/phrase.
+- [ ] **Storage Management:** Utilize Chrome's storage API to manage user preferences and cache frequently accessed terms for improved performance.
+- [ ] **Data Scraping:** For terms not found on r/ELI5, scrape relevant information from other online sources to create informative pseudo-r/ELI5 explanations.
+- [ ] **Error Handling:** Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
+
 
 > Put
 > Shit
@@ -267,27 +248,6 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 > Shit
 > Here
 
-&nbsp; 
-
-1. **<ins>UI Design</ins>:**
-    - Design a simple and visually appealing user interface, considering both the menu bar widget and standalone application.
-2. **<ins>Implement Volume Boosting</ins>:**
-    - Integrate Core Audio to enable volume boosting beyond Apple's pre-set maximum volume.
-3. **<ins>Configure UI Controls</ins>:**
-    - Add sliders, buttons, or other controls to allow users to adjust the volume and enable/disable the volume boost.
-4. **<ins>Menu Bar Integration</ins>:**
-    - Implement the functionality to run the application as a menu bar widget with a dropdown interface.
-5. **<ins>Standalone Application</ins>:**
-    - Create a separate standalone application with the same functionality and minimal UI.
-6. **<ins>User Preferences</ins>:**
-    - Allow users to customize settings, such as preferred volume levels or startup behavior.
-7. **<ins>Testing</ins>:**
-    - Perform rigorous testing to ensure smooth functionality and handle potential edge cases.
-8. **<ins>Code Optimization</ins>:**
-    - Refine the codebase and optimize performance for a seamless user experience.
-9. **<ins>Deployment</ins>:**
-    - Prepare the application for distribution on the Mac App Store.
-
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
 ---------------------
@@ -295,71 +255,9 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 
 ## Getting Started
 
-
-<a name="xcode"></a>
-### <ins>Version 1: XCode in *SwiftUI*</ins>
-- [ ] 1. **<ins>Install XCode</ins>:**
-> Download and install XCode, the integrated development environment for macOS app development, from the Mac App Store.
-- [ ] 2. **<ins>Create a New macOS SwiftUI Project</ins>:**
-> Set up a new project and define the basic UI elements and application structure.
-
-
-
-<a name="cpp"></a>
-### <ins>Version 2: CLion in *C++*</ins>
-- [ ] 1. **<ins>Create a New C++ Project</ins>:**
-> In CLion, create a new C++ project, and define the basic structure for the VolumeVault application.
-- [ ] 2. **<ins>Choose a Cross-Platform Framework (Optional)</ins>:**
-> To ensure cross-platform compatibility, consider using a cross-platform C++ framework, such as `Qt` or `wxWidgets`, for the front-end development.\
-> These frameworks will allow you to create a user-friendly interface that works seamlessly on macOS and other platforms.
-- [ ] 3. **<ins>Integrate Core Audio (macOS-specific)</ins>:**
-> To enable volume boosting on macOS, you'll need to use the Core Audio framework.\
-> While Core Audio is macOS-specific, you can use preprocessor directives to handle platform-specific code and ensure the application compiles correctly on macOS.
-- [ ] 4. **<ins>Implement Minimalistic UI</ins>:**
-> Using your preferred C++ framework or native macOS APIs, create a simple and intuitive user interface for `volume_vault`.\
-> Keep the UI minimalistic to achieve a clean and user-friendly design.
-- [ ] 5. **<ins>Handle macOS Permissions</ins>:**
-> When using `Core Audio` to intercept audio output, ensure your application handles macOS permissions gracefully.\
-> In some cases, additional permissions may be required from the user to manipulate audio output.
-- [ ] 6. **<ins>Code and Test</ins>:**
-> Write the logic for volume boosting and user interface interactions.\
-> Test the application thoroughly, especially on macOS, to ensure it functions as expected.
-- [ ] 7. **<ins>Project Build</ins>:**
-> Set up build configurations for macOS in CLion to generate a macOS executable.\
-> For cross-platform compatibility, you can also set up build configurations for other target platforms, if applicable.
-- [ ] 8. **<ins>Optional XCode or VSCode Integration</ins>:**
-> If you prefer, you can use XCode or VSCode for specific tasks, such as advanced debugging, profiling, or specific macOS-related development.\
-> You can import your C++ project from JetBrains CLion into XCode or VSCode when necessary.
-
-
-<a name="swift"></a>
-### <ins>Version 3: CLion in *Swift*</ins>
-- [ ] 1. **<ins>Swift Support</ins>:**
-> By default, JetBrains CLion doesn't provide built-in support for Swift.\
-> However, you can enable Swift support using the Swift Plugin.\
->
-> To do this, go to "Settings" (or "Preferences" on macOS) > "Plugins" > "Marketplace," search for "Swift," and install the Swift plugin.
-- [ ] 2. **<ins>Create a New Swift Project</ins>:**
-> After enabling the Swift plugin, you can create a new Swift project in JetBrains CLion.\
-> Choose the appropriate project template for a macOS application.
-- [ ] 3. **<ins>Minimalistic UI</ins>:**
-> Design a simple and user-friendly interface for VolumeVault.\
-> SwiftUI, a modern UI framework for Swift, can be used for creating a minimalistic UI that integrates seamlessly with macOS.
-- [ ] 4. __<ins>Core Audio Integration (*macOS-specific*)</ins>:__
-> To enable volume boosting on macOS, you'll need to integrate `Core Audio`.\
-> `Core Audio` is macOS-specific, so you may need to handle platform-specific code using preprocessor directives, ensuring the application compiles correctly on macOS.
-- [ ] 5. **<ins>Handle macOS Permissions</ins>:**
-> When using `Core Audio` to intercept audio output, ensure your application handles macOS permissions gracefully.\
-> In some cases, additional permissions may be required from the user to manipulate audio output.
-- [ ] 6. **<ins>Code and Test</ins>:**
-> Write the logic for volume boosting and user interface interactions in Swift.\
-> Test the application thoroughly, especially on macOS, to ensure it functions as expected.
-- [ ] 7. **<ins>Project Build</ins>:**
-> Set up build configurations for macOS in CLion to generate a macOS executable.\
-> Ensure that the build settings include Swift support.
-- [ ] 8. **<ins>Optional XCode or VSCode Integration</ins>:**
-> If you prefer, you can use XCode or VSCode for specific tasks, such as advanced debugging, profiling, or specific macOS-related development.\
-> You can import your Swift project from JetBrains CLion into XCode or VSCode when necessary.
+1. Clone the repository and navigate to the project directory.
+2. Install any required dependencies using `npm` or `yarn`.
+3. Load the unpacked extension in Chrome Developer mode.Code or VSCode when necessary.
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
@@ -367,12 +265,17 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="flow"></a>
 ## Basic Workflow Guide
 
-1. Upon launching `volume_vault`, the user is presented with a clean and straightforward UI, either as a menu bar widget or a standalone application.
-2. The user can toggle the volume boost feature on/off using a button or checkbox.
-3. A slider allows the user to adjust the level of volume boost they desire, ranging from 0% to 2000%.
-4. The application utilizes Core Audio to intercept audio output and apply the desired volume boost.
-5. The boosted audio is then sent to the system's audio output for playback.
-6. The user can control the volume directly from the application or the menu bar widget.
+1. Set up the basic project structure and necessary files.
+2. Create a basic UI for the extension's pop-up widget.
+3. Implement Reddit API integration to fetch data from r/ELI5.
+4. Develop ML models to generate pseudo-r/ELI5 explanations for terms not on r/ELI5.
+5. Integrate data scraping to supplement pseudo-r/ELI5 explanations.
+6. Add storage management to store user preferences and cache frequently accessed terms.
+7. Implement error handling to deal with API or ML failures gracefully.
+8. Test the extension for different use cases and scenarios.
+9. Optimize and fine-tune ML models for better explanations.
+10. Polish the UI and user experience for seamless interaction.
+11. Perform extensive testing and debugging to ensure stability and reliability.
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
@@ -397,6 +300,7 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 ### System Permissions and Requirements:
 The extension requires access to the current webpage to detect and process user input.
 
+
 > **Internet Access:** The extension requires an internet connection to fetch data from the Reddit API, perform data scraping, and access other online sources for pseudo-r/ELI5 generation.
 > **Chrome Web Browser:** ELI5 Explorer is a Google Chrome extension, and users must have the Chrome browser installed to use it.
 > **Chrome Extension Installation:** Users need permissions to install and enable the extension on their Chrome browsers to utilize the ELI5 Explorer functionality.
@@ -409,13 +313,21 @@ The extension requires access to the current webpage to detect and process user 
 ### User Permissions and Requirements:
 The extension requires access to the current webpage to detect and process user input.
 
-> **Hovering over Words/Phrases:** Users can interact with the extension by simply hovering the cursor over a word or phrase on any webpage to trigger the ELI5 explanation pop-up.
-> **Allowing Extension Installation:** Users must have permission to install Chrome extensions. This permission allows users to enable the ELI5 Explorer extension on their Chrome browsers.
-> **Providing Internet Access:** Users should ensure their devices have an active internet connection to access r/ELI5 and other online sources for generating pseudo-r/ELI5 explanations.
-> **No Personal Data Collection:** ELI5 Explorer does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
-> **Feedback and Reporting:** Users are encouraged to provide feedback, report bugs, and suggest improvements through the extension's interface or the project's GitHub repository.
-> **Responsible Use:** Users are expected to use the extension responsibly and not engage in any activities that violate Reddit's terms of service or involve any malicious intent.
-> **Open Source Contribution:** While not a requirement, users interested in contributing to the project's development can follow the guidelines provided in the project's repository.
+
+> **Hovering over Words/Phrases:**
+> - Users can interact with the extension by simply hovering the cursor over a word or phrase on any webpage to trigger the ELI5 explanation pop-up.
+> **Allowing Extension Installation:**
+> - Users must have permission to install Chrome extensions. This permission allows users to enable the ELI5 Explorer extension on their Chrome browsers.
+> **Providing Internet Access:**
+> - Users should ensure their devices have an active internet connection to access r/ELI5 and other online sources for generating pseudo-r/ELI5 explanations.
+> **No Personal Data Collection:**
+> - ELI5 Explorer does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
+> **Feedback and Reporting:**
+> - Users are encouraged to provide feedback, report bugs, and suggest improvements through the extension's interface or the project's GitHub repository.
+> **Responsible Use:**
+> - Users are expected to use the extension responsibly and not engage in any activities that violate Reddit's terms of service or involve any malicious intent.
+> **Open Source Contribution:**
+> - While not a requirement, users interested in contributing to the project's development can follow the guidelines provided in the project's repository.
 
 > Put
 > Shit
