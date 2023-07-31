@@ -203,15 +203,6 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="map"></a>
 ## Roadmap
 
-
-- [ ] **Reddit API Integration:** Implement a connection to the Reddit API to fetch data from r/ELI5, including comments, for queried terms.
-- [ ] **Machine Learning (ML) Techniques:** Employ natural language processing (NLP) and ML algorithms to generate pseudo-r/ELI5 explanations for terms not found on r/ELI5.
-- [ ] **User Interface:** Create a user-friendly interface that displays the ELI5 definition in a drop-down widget when the user hovers over a word/phrase.
-- [ ] **Storage Management:** Utilize Chrome's storage API to manage user preferences and cache frequently accessed terms for improved performance.
-- [ ] **Data Scraping:** For terms not found on r/ELI5, scrape relevant information from other online sources to create informative pseudo-r/ELI5 explanations.
-- [ ] **Error Handling:** Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
-
-
 > Put
 > Shit
 > Here
@@ -247,6 +238,17 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 > Put
 > Shit
 > Here
+
+&nbsp;
+
+
+- [ ] **Reddit API Integration:** Implement a connection to the Reddit API to fetch data from r/ELI5, including comments, for queried terms.
+- [ ] **Machine Learning (ML) Techniques:** Employ natural language processing (NLP) and ML algorithms to generate pseudo-r/ELI5 explanations for terms not found on r/ELI5.
+- [ ] **User Interface:** Create a user-friendly interface that displays the ELI5 definition in a drop-down widget when the user hovers over a word/phrase.
+- [ ] **Storage Management:** Utilize Chrome's storage API to manage user preferences and cache frequently accessed terms for improved performance.
+- [ ] **Data Scraping:** For terms not found on r/ELI5, scrape relevant information from other online sources to create informative pseudo-r/ELI5 explanations.
+- [ ] **Error Handling:** Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
+
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
