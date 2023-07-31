@@ -64,16 +64,55 @@
 
 <a name="view"></a>
 ## Project Overview
-`volume_vault` is a macOS application that breaks through Apple's pre-set maximum audio playback volume restrictions, enabling users to boost and amplify their favorite audio media content by up to 2000%. 
 
-This entertaining project features a simple and minimalistic user interface, offering users the choice to use it as a Mac menu bar drop-down widget or a standalone application for an enjoyable audio amplification experience.
+Have you ever found yourself stumbling upon perplexing terminologies while browsing articles, forums, or research papers? `eli5-chrome` is here to bridge the comprehension gap, making knowledge more accessible to users of all ages and backgrounds.\
+
+Whether you are a curious student, an avid learner, or someone who simply wants to delve into unfamiliar subject matter, `eli5-chrome` empowers you to effortlessly comprehend the most intricate topics the internet has to offer.
+
+
+`eli5-chrome` is implemented as a Google Chrome extension that provides users with ELI5 (*"Explain Like I'm 5"*) definitions and descriptions of words or phrases on the web.\
+Drawing inspiration from the immensely popular subreddit *r/ELI5*, this extension equips users with a newfound understanding of intricate jargon by effortlessly displaying simplified explanations upon hovering over challenging words or phrases.
+
+The extension sources information from the r/ELI5 subreddit. If a term/phrase has been queried on r/ELI5, users can view relevant comments sorted by Reddit's "top" mechanism. For terms not yet queried on r/ELI5, the extension generates pseudo-r/ELI5 explanations using machine learning techniques and data scraping.
+
+The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.\
+
+When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
+The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
+
+
+However, the wonders of `eli5-chrome` do not end there.\
+
+For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism.\ 
+This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
+
+
+But what about terms that have not been previously queried on r/ELI5?\
+
+`eli5-chrome` does not leave users empty-handed.\
+Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-"r/ELI5" explanations.\
+Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
+
+`eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
+The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
+Moreover, user privacy and data protection are at the forefront, as the extension does not collect or store any personal information, ensuring a secure and trustworthy environment.
+
+
+We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
+Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
+
+Together, we can transform `eli5-chrome` into an indispensable tool for fostering a culture of accessible and simplified learning across the internet.
+
+Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
+Simplify the complex, and empower learning through `eli5-chrome`!
+
 
 
 <a name="obj"></a>
 ### <ins>Objectives</ins>
-The main objective of `volume_vault` is to provide macOS users with a playful solution to amplify their audio volume beyond the limitations imposed by Apple. 
+The main objective of `eli5-chrome` is to provide macOS users with a playful solution to amplify their audio volume beyond the limitations imposed by Apple. 
 
-By offering a user-friendly interface and a humorous touch, `volume_vault` aims to enhance the audio experience for users who desire louder sound without compromising on quality.
+By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims to enhance the audio experience for users who desire louder sound without compromising on quality.
 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
@@ -289,6 +328,14 @@ Users will need to grant the necessary permissions during the application's firs
 
 <a name="use"></a>
 ## Usage
+
+If a term/phrase has been queried on r/ELI5, users can view relevant comments sorted by Reddit's "top" mechanism. For terms not yet queried on r/ELI5, the extension generates pseudo-r/ELI5 explanations using machine learning techniques and data scraping.
+
+The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge. When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition. The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
+
+However, the wonders of ELI5 Explorer do not end there. For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism. This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
+
+But what about terms that have not been previously queried on r/ELI5? ELI5 Explorer does not leave users empty-handed. Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-r/ELI5 explanations. Through data scraping and intelligent algorithms, ELI5 Explorer composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
 
 ### Potential Use Cases and Applications:
 - **<ins>Media Playback</ins>:**
