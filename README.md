@@ -69,7 +69,7 @@
 <a name="view"></a>
 ## Project Overview
 
-Have you ever found yourself stumbling upon perplexing terminologies while browsing articles, forums, or research papers? `eli5-chrome` is here to bridge the comprehension gap, making knowledge more accessible to users of all ages and backgrounds.\
+Have you ever found yourself stumbling upon perplexing terminologies while browsing articles, forums, or research papers? `eli5-chrome` is here to bridge the comprehension gap, making knowledge more accessible to users of all ages and backgrounds.
 
 Whether you are a curious student, an avid learner, or someone who simply wants to delve into unfamiliar subject matter, `eli5-chrome` empowers you to effortlessly comprehend the most intricate topics the internet has to offer.
 
