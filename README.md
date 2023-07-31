@@ -189,7 +189,7 @@ Moreover, user privacy and data protection are at the forefront, as the extensio
 6. **Machine Learning (ML) Techniques:**
 - Set up ML libraries and models for natural language processing (NLP).
 - Train the models on relevant data to generate pseudo-r/ELI5 explanations for terms not on r/ELI5.
-7.** Data Scraping:**
+7. **Data Scraping:**
 - Implement web scraping techniques to gather information from other online sources to supplement pseudo-r/ELI5 explanations.
 8. **Storage Management:**
 - Utilize Chrome's storage API to store user preferences and cache frequently accessed terms.
