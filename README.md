@@ -97,15 +97,6 @@ The extension's efficient storage management ensures quick access to previously 
 Moreover, user privacy and data protection are at the forefront, as the extension does not collect or store any personal information, ensuring a secure and trustworthy environment.
 
 
-We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
-Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
-Together, we can transform `eli5-chrome` into an indispensable tool for fostering a culture of accessible and simplified learning across the internet.
-
-Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
-Simplify the complex, and empower learning through `eli5-chrome`!
-
-
-
 <a name="obj"></a>
 ### <ins>Objectives</ins>
 The main objective of `eli5-chrome` is to provide macOS users with a playful solution to amplify their audio volume beyond the limitations imposed by Apple. 
@@ -393,6 +384,11 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 - **Open Source:** Consider making `volume_vault` an open-source project to foster community contributions.
 - **Bug Reports and Feature Requests:** Encourage users to submit bug reports and suggest new features to improve the application.
 
+We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
+Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
+Together, we can transform `eli5-chrome` into an indispensable tool for fostering a culture of accessible and simplified learning across the internet.
+
+
 > Put
 > Shit
 > Here
@@ -430,6 +426,12 @@ Add support for macOS dark mode to enhance visual appeal and consistency with ma
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
 ---------------------------
+<a name="conc"></a> 
+Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
+Simplify the complex, and empower learning through `eli5-chrome`!
+
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+---
 
 <a name="lic"></a>
 <!-- LICENSE -->
