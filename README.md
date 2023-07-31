@@ -83,9 +83,8 @@ The extension leverages state-of-the-art Machine Learning (ML) techniques &mdash
     
 ### <ins>If a term/phrase has, in fact, already been queried on r/ELI5...</ins>
 Users can view relevant snippets derived from top-rated comments curated through Reddit's various sorting mechanisms.
-  - __<ins>Note</ins>:__ By default, `eli5-chrome` will provide both its ML-generated definition as well information it aggregates from r/ELI5.\
-  - By default, `eli5-chrome` will utilize Reddit's "top" sorting mechanism for comments.\
-  - This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
+  - __<ins>Note</ins>:__ By default, `eli5-chrome` will provide both its ML-generated definition as well information it aggregates from r/ELI5. By default, `eli5-chrome` will also utilize Reddit's "top" sorting mechanism for comments.
+    - This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 These configurations can be changed in `eli5-chrome`'s user settings.
 
 When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
