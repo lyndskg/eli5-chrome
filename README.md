@@ -106,7 +106,7 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="uiux"></a>
 ## UI/UX
 `eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
-The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
+The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.
 
 When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
 The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
