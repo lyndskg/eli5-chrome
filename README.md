@@ -76,10 +76,11 @@ Drawing inspiration from the immensely popular subreddit *r/ELI5*, this extensio
 The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.
 
 
-#### For terms not yet queried on r/ELI5...
+### <ins>For terms not yet queried on r/ELI5...</ins>
 The extension leverages state-of-the-art Machine Learning (ML) techniques &mdash; auto-generating pseudo-"r/ELI5" explanations.
-  - Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.   
-#### If a term/phrase has, in fact, already been queried on r/ELI5...
+  - Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
+    
+### <ins>If a term/phrase has, in fact, already been queried on r/ELI5...</ins>
 Users can view relevant snippets derived from top-rated comments curated through Reddit's various sorting mechanisms.
   - __<ins>Note</ins>:__ By default, `eli5-chrome` will provide both its ML-generated definition as well information it aggregates from r/ELI5.\
   - By default, `eli5-chrome` will utilize Reddit's "top" sorting mechanism for comments.\
