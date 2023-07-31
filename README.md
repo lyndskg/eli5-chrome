@@ -113,20 +113,36 @@ By offering a user-friendly interface and a humorous touch, `eli5-chrome`` aims 
 <a name="tech"></a> 
 ## Technologies and Programming Languages
 
-
-<a name="rec"></a> 
-
-### Recommended:
+<a name="front"></a> 
+### Front-end (User Interface):
 >
-> For the *front-end* and *UI* development, the following technologies and programming languages are recommended:
-> - **<ins>Swift</ins>:** As the primary language for macOS app development.
-> - **<ins>SwiftUI</ins>:** To create a modern and visually appealing minimalistic user interface.
+> - **<ins>HTML/CSS</ins>:** Used for creating the user interface of the extension.
+>   - HTML structures the elements, while CSS styles them to ensure an appealing and consistent look.
+> - **<ins>JavaScript (ES6+)</ins>:** The core language for developing Chrome extensions.
+>   - It allows you to manipulate the Document Object Model (DOM) and interact with web pages.
 
 
-For the *back-end* and audio processing, the following library can be considered:
-> - **<ins>Core Audio</ins>:** For audio manipulation and volume boosting.
+<a name="back"></a> 
+### Back-end: 
+
+> - **<ins>Node.js</ins>:** A popular server-side runtime environment that allows for JavaScript execution outside the browser, making it ideal for handling background tasks and API calls.
+> - **<ins>Express.js</ins>:** A lightweight Node.js framework for building the back-end server, handling routes, and managing API requests.
+> - **<ins>Axios</ins>:** A JavaScript library for making HTTP requests, which will be used to interact with the Reddit API and perform data scraping.
+
+
+<a name="ml"></a> 
+### Machine Learning (ML) Libraries:
+
+> - **<ins>TensorFlow.js</ins>:** An open-source JavaScript library for training and deploying ML models in the browser. It enables seamless integration of ML techniques for generating pseudo-r/ELI5 explanations.
+
+<a name="ide"></a> 
+### IDEs (Integrated Development Environments):
+
+> - **<ins>Visual Studio Code (VS Code)</ins>:** A versatile code editor with extensive support for JavaScript, Node.js, HTML, and CSS, along with numerous extensions for additional functionalities.
+> - **<ins>WebStorm</ins>:** An intelligent IDE that provides excellent JavaScript and Node.js development capabilities, as well as advanced HTML and CSS support.
 
 &nbsp;
+
 
 <a name="built"></a>
 ### Built With:
@@ -142,6 +158,72 @@ For the *back-end* and audio processing, the following library can be considered
 > - **Architecture:** Apple arm64
 
 
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+
+---------------------
+
+<a name="impl"></a>
+## Implementation Details
+
+- [ ] **Reddit API Integration:** Implement a connection to the Reddit API to fetch data from r/ELI5, including comments, for queried terms.
+- [ ] **Machine Learning (ML) Techniques:** Employ natural language processing (NLP) and ML algorithms to generate pseudo-r/ELI5 explanations for terms not found on r/ELI5.
+- [ ] **User Interface:** Create a user-friendly interface that displays the ELI5 definition in a drop-down widget when the user hovers over a word/phrase.
+- [ ] **Storage Management:** Utilize Chrome's storage API to manage user preferences and cache frequently accessed terms for improved performance.
+- [ ] **Data Scraping:** For terms not found on r/ELI5, scrape relevant information from other online sources to create informative pseudo-r/ELI5 explanations.
+- [ ] **Error Handling:** Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
+
+1. **Manifest File:** Create a `manifest.json` file to define the extension's properties, including permissions, content scripts, background scripts, icons, and the extension popup.
+2. **User Interface (UI):**
+- Design the popup widget using HTML and CSS. It should be visually appealing and responsive to different screen sizes.
+- Implement JavaScript logic to handle user interactions and events, such as hovering over words/phrases.
+3. **Content Script:**
+- Develop a content script to inject JavaScript code into web pages and detect the highlighted words/phrases.
+- Handle communication between the content script and the background script.
+4. **Background Script:**
+- Create a background script to handle requests to the Reddit API, data scraping, and ML-based pseudo-r/ELI5 generation.
+- Implement communication between the background script and the content script.
+5. **Reddit API Integration:**
+- Register your extension with the Reddit API to obtain the necessary authentication credentials.
+- Use the credentials to fetch data from the r/ELI5 subreddit, including relevant comments for queried terms.
+6. **Machine Learning (ML) Techniques:**
+- Set up ML libraries and models for natural language processing (NLP).
+- Train the models on relevant data to generate pseudo-r/ELI5 explanations for terms not on r/ELI5.
+7.** Data Scraping:**
+- Implement web scraping techniques to gather information from other online sources to supplement pseudo-r/ELI5 explanations.
+8. **Storage Management:**
+- Utilize Chrome's storage API to store user preferences and cache frequently accessed terms.
+- Develop mechanisms to manage and update the storage efficiently.
+9. **Error Handling:**
+- Implement robust error handling to gracefully manage any connection issues, API failures, or ML errors.
+- Display appropriate error messages to the user when necessary.
+10. **Testing and Debugging:**
+- Perform extensive testing of the extension on different websites and scenarios to ensure stability and compatibility.
+-Debug and resolve any issues that arise during testing.
+11. **Packaging and Deployment:**
+-Package the extension into a distributable format (*e.g.*, `.crx`) for Chrome Web Store submission.
+- Optionally, deploy the extension to the Chrome Web Store to make it publicly available for users.
+
+
+### Getting Started:
+1. Clone the repository and navigate to the project directory.
+2. Install any required dependencies using `npm` or `yarn`.
+3. Load the unpacked extension in Chrome Developer mode.
+
+
+### Basic Workflow & Roadmap
+1. Set up the basic project structure and necessary files.
+2. Create a basic UI for the extension's pop-up widget.
+3. Implement Reddit API integration to fetch data from r/ELI5.
+4. Develop ML models to generate pseudo-r/ELI5 explanations for terms not on r/ELI5.
+5. Integrate data scraping to supplement pseudo-r/ELI5 explanations.
+6. Add storage management to store user preferences and cache frequently accessed terms.
+7. Implement error handling to deal with API or ML failures gracefully.
+8. Test the extension for different use cases and scenarios.
+9. Optimize and fine-tune ML models for better explanations.
+10. Polish the UI and user experience for seamless interaction.
+11. Perform extensive testing and debugging to ensure stability and reliability.
+
+ 
 <p align="right">(<a href="#eli5">back to top</a>)</p>
 
 ---------------------
@@ -164,10 +246,14 @@ For the *back-end* and audio processing, the following library can be considered
 >
 ### Time Estimate: 
 > 
-> The time required for completing `volume_vault` can vary based on the developer's expertise and the desired level of polish. 
-> 
-> - For a *basic* version with the primary features, it may take around 2-4 weeks. 
-> - For a *more refined* version with additional features and thorough testing, it may take up to 6-8 weeks or more.
+> This project's estimated timeline is 3 months, with the following breakdown:
+>
+> Initial Setup and UI Development: 1 week
+> Reddit API Integration and Data Retrieval: 2 weeks
+> Machine Learning Model Development: 3 weeks
+> Data Scraping and Pseudo-r/ELI5 Generation: 2 weeks
+> Storage Management and Error Handling: 1 week
+> Testing, Optimization, and Polishing: 2 weeks
 
 &nbsp;
   
@@ -296,19 +382,40 @@ For the *back-end* and audio processing, the following library can be considered
 ## Basic I/O Details
 
 ### Input:
-> - User interaction with the application's sliders and buttons to control volume boost and other settings.
-> 
+> - Users provide input by hovering the cursor over a word/phrase on any webpage.
+>   - When the user hovers the cursor over a word or phrase on any webpage, the extension detects the highlighted term and initiates a request for the ELI5 explanation.
 >
 ### Output:
-> - Boosted audio output to the system's audio playback.
+> - ELI5 definition appears in a drop-down widget, along with relevant r/ELI5 comments or auto-generated pseudo-r/ELI5 explanations.
+>   - The ELI5 definition appears in a non-intrusive drop-down widget adjacent to the highlighted word/phrase.
+>   - The widget disappears as soon as the mouse moves away from the term.
+>   - If the word/phrase has been queried on r/ELI5, the widget will display relevant comments sorted by Reddit's "top" mechanism.
+>   - If the term/phrase has not been queried yet on r/ELI5, the widget will show an auto-generated pseudo-r/ELI5 explanation using ML techniques and data scraping. 
 
 &nbsp;
 
-### System/User Permissions and Requirements:
-To manipulate audio output, `volume_vault` will need appropriate permissions to access the user's audio settings and intercept audio playback. 
+### System Permissions and Requirements:
+The extension requires access to the current webpage to detect and process user input.
 
-Users will need to grant the necessary permissions during the application's first run.\
-`volume_vault` should adhere to macOS security guidelines and handle permissions gracefully.
+> **Internet Access:** The extension requires an internet connection to fetch data from the Reddit API, perform data scraping, and access other online sources for pseudo-r/ELI5 generation.
+> **Chrome Web Browser:** ELI5 Explorer is a Google Chrome extension, and users must have the Chrome browser installed to use it.
+> **Chrome Extension Installation:** Users need permissions to install and enable the extension on their Chrome browsers to utilize the ELI5 Explorer functionality.
+> **Local Storage Access:** The extension requires permission to access Chrome's local storage to store user preferences and cache frequently accessed terms for improved performance.
+
+> Put
+> Shit
+> Here
+
+### User Permissions and Requirements:
+The extension requires access to the current webpage to detect and process user input.
+
+> **Hovering over Words/Phrases:** Users can interact with the extension by simply hovering the cursor over a word or phrase on any webpage to trigger the ELI5 explanation pop-up.
+> **Allowing Extension Installation:** Users must have permission to install Chrome extensions. This permission allows users to enable the ELI5 Explorer extension on their Chrome browsers.
+> **Providing Internet Access:** Users should ensure their devices have an active internet connection to access r/ELI5 and other online sources for generating pseudo-r/ELI5 explanations.
+> **No Personal Data Collection:** ELI5 Explorer does not collect or store any personal user data. Users can rest assured that their browsing activities and interactions with the extension remain private.
+> **Feedback and Reporting:** Users are encouraged to provide feedback, report bugs, and suggest improvements through the extension's interface or the project's GitHub repository.
+> **Responsible Use:** Users are expected to use the extension responsibly and not engage in any activities that violate Reddit's terms of service or involve any malicious intent.
+> **Open Source Contribution:** While not a requirement, users interested in contributing to the project's development can follow the guidelines provided in the project's repository.
 
 > Put
 > Shit
@@ -351,6 +458,13 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 
 ### Installation:
 
+1. Download the extension from the Chrome Web Store or the project's GitHub repository.
+2. Open Google Chrome and go to "chrome://extensions".
+3. Enable "Developer mode" in the top-right corner.
+4. Click "Load unpacked" and select the extension folder on your local machine.
+5. The ELI5 Explorer extension will be added to Chrome.
+
+   
 > Put
 > Shit
 > Here
@@ -383,9 +497,16 @@ But what about terms that have not been previously queried on r/ELI5? ELI5 Explo
 <a name="give"></a>
 ## How and Why to Contribute
 
-- **Contribution Guidelines:** Provide clear guidelines on how developers can contribute to `volume_vault`.
-- **Open Source:** Consider making `volume_vault` an open-source project to foster community contributions.
-- **Bug Reports and Feature Requests:** Encourage users to submit bug reports and suggest new features to improve the application.
+Contributions to ELI5 Explorer are encouraged and welcomed! Here's how you can contribute:
+
+- **Bug Reports:** Report any issues, bugs, or errors you encounter while using the extension.
+- **Feature Requests:** Suggest new features or improvements to enhance the extension's functionality.
+- **Code Contributions:** Contribute to the development of new features or bug fixes by creating pull requests.
+- **Documentation:** Help improve the README.md or add more detailed documentation to the project.
+
+
+By contributing to ELI5 Explorer, you can make the internet a more accessible and informative place for users of all ages and backgrounds.
+
 
 We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
 Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
@@ -431,6 +552,8 @@ Add support for macOS dark mode to enhance visual appeal and consistency with ma
 ---------------------------
 <a name="conc"></a> 
 ## Conclusion
+
+ELI5 Explorer aims to bridge the gap between complex terminology and easy comprehension for all users. By utilizing the power of community-driven explanations from r/ELI5 and cutting-edge ML techniques, this extension can become an invaluable tool for individuals seeking simple yet accurate insights into challenging concepts. With the support and collaboration of contributors, we can make ELI5 Explorer an indispensable resource for internet users worldwide. Let's simplify knowledge and promote understanding together!
 
 
 Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
