@@ -87,13 +87,16 @@ Users can view relevant snippets derived from top-rated comments curated through
     - This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 These configurations can be changed in `eli5-chrome`'s user settings.
 
+
+<a name="uiux"></a>
+### UI/UX
+`eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
+The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
+
 When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
 The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
 
 
-### UI/UX
-`eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
-The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
 Moreover, user privacy and data protection are at the forefront, as the extension does not collect or store any personal information, ensuring a secure and trustworthy environment.
 
 
