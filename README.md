@@ -427,6 +427,9 @@ Add support for macOS dark mode to enhance visual appeal and consistency with ma
 
 ---------------------------
 <a name="conc"></a> 
+## Conclusion
+
+
 Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
 Simplify the complex, and empower learning through `eli5-chrome`!
 
