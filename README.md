@@ -61,8 +61,6 @@
   </ol>
 </details>
   
-> Unleash the ~Audio Amplification Adventure~
-> 
 
 ---------------------------
 
