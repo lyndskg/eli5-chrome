@@ -73,9 +73,16 @@ Whether you are a curious student, an avid learner, or someone who simply wants 
 `eli5-chrome` is implemented as a Google Chrome extension that provides users with ELI5 (*"Explain Like I'm 5"*) definitions and descriptions of words or phrases on the web.\
 Drawing inspiration from the immensely popular subreddit *r/ELI5*, this extension equips users with a newfound understanding of intricate jargon by effortlessly displaying simplified explanations upon hovering over challenging words or phrases.
 
-The extension sources information from the r/ELI5 subreddit. If a term/phrase has been queried on r/ELI5, users can view relevant comments sorted by Reddit's "top" mechanism. For terms not yet queried on r/ELI5, the extension generates pseudo-r/ELI5 explanations using machine learning techniques and data scraping.
+The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.
 
-The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.\
+
+- For terms not yet queried on r/ELI5, the extension leverages state-of-the-art Machine Learning (ML) techniques &mdash; auto-generating pseudo-"r/ELI5" explanations.
+  - Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.   
+- If a term/phrase has, in fact, already been queried on r/ELI5, users can view relevant snippets derived from top-rated comments curated through Reddit's various sorting mechanisms.
+  - __<ins>Note</ins>:__ By default, `eli5-chrome` will provide both its ML-generated definition as well information it aggregates from r/ELI5.\
+  - By default, `eli5-chrome` will utilize Reddit's "top" sorting mechanism for comments.
+  - These configurations can be changed in `eli5-chrome`'s user settings.
+
 When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
 The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
 
@@ -87,8 +94,7 @@ This ensures users receive insights from diverse perspectives and in-depth under
 
 But what about terms that have not been previously queried on r/ELI5?\
 `eli5-chrome` does not leave users empty-handed.\
-Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-"r/ELI5" explanations.\
-Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
+
 
 `eli5-chrome` offers an intuitive and user-friendly interface, seamlessly blending into the browsing experience.\
 The extension's efficient storage management ensures quick access to previously queried terms, enhancing response times for recurrent usage.\
