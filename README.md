@@ -76,19 +76,16 @@ Drawing inspiration from the immensely popular subreddit *r/ELI5*, this extensio
 The extension sources information from the r/ELI5 subreddit. If a term/phrase has been queried on r/ELI5, users can view relevant comments sorted by Reddit's "top" mechanism. For terms not yet queried on r/ELI5, the extension generates pseudo-r/ELI5 explanations using machine learning techniques and data scraping.
 
 The extension sources its knowledge directly from the r/ELI5 subreddit, renowned for its community-driven ELI5 explanations that break down complicated subjects into easily digestible nuggets of knowledge.\
-
 When hovering over a word/phrase, the extension provides a little drop-down widget containing the ELI5 definition.\
 The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive browsing experience.
 
 
 However, the wonders of `eli5-chrome` do not end there.\
-
 For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism.\ 
 This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 
 
 But what about terms that have not been previously queried on r/ELI5?\
-
 `eli5-chrome` does not leave users empty-handed.\
 Leveraging state-of-the-art Machine Learning (ML) techniques, the extension generates auto-generated pseudo-"r/ELI5" explanations.\
 Through data scraping and intelligent algorithms, `eli5-chrome` composes ELI5-style definitions, mimicking the subreddit's signature simplicity even for previously unexplored concepts.
@@ -100,7 +97,6 @@ Moreover, user privacy and data protection are at the forefront, as the extensio
 
 We invite you to contribute to `eli5-chrome`'s growth and make the internet a more comprehensible space.\
 Whether you report bugs, suggest improvements, or contribute to the open-source development, your participation empowers others to gain knowledge with ease.\
-
 Together, we can transform `eli5-chrome` into an indispensable tool for fostering a culture of accessible and simplified learning across the internet.
 
 Embark on a journey of knowledge exploration with `eli5-chrome` today and witness the power of simplified explanations at your fingertips.\
