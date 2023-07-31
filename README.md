@@ -81,7 +81,7 @@ The widget promptly vanishes when the mouse moves away, ensuring an unobtrusive 
 
 
 However, the wonders of `eli5-chrome` do not end there.\
-For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism.\ 
+For terms that have already been queried on r/ELI5, the extension goes a step further by presenting snippets of the top-rated comments, curated through Reddit's "top" sorting mechanism.\
 This ensures users receive insights from diverse perspectives and in-depth understanding of the term's context.
 
 
